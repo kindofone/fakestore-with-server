@@ -1,0 +1,26 @@
+{
+  "name": "node-roy-test",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.mjs",
+    "start:prod": "node server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "load-json-file": "^6.2.0",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.5",
+    "mongoose-autopopulate": "^0.14.0",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "querystringify": "^2.2.0"
+  }
+}

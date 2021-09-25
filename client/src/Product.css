@@ -1,0 +1,21 @@
+.product {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-image {
+  width: 70%;
+}
+
+.product .title {
+  font-weight: bold;
+  margin: 10px;
+}
